@@ -1,4 +1,4 @@
-.PHONY: chat.a check clean 
+.PHONY: chat.a main check clean 
 
 CC = g++ -Wall -Wextra -Werror -std=c++17
 OS=$(shell uname -s)
